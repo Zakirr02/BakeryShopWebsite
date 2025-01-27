@@ -1,0 +1,44 @@
+body{
+	background-color: 	#ffe6e6;
+}
+.ufuqi {
+	width:100%;
+}
+.ufuqi ul{
+	list-style: none;
+	margin:0;
+	padding:0;
+}
+.ufuqi li{
+	float:left;
+	position: relative;
+	width:150px;
+}
+.ufuqi ul li ul {
+	display:none;
+}
+.ufuqi a{
+	text-decoration: none;
+	background-color: #4000ff;
+	color:white;
+	display:block;
+	font-family:Verdana;
+	font-weight: bold;
+	font-size:13px;
+	padding:10px;
+	text-align: center;
+	border-radius:15px;
+}
+.ufuqi li a:hover {
+	background-color: #93C;
+	font-size:1em;
+}
+.ufuqi li ul li ul {
+	position:absolute;
+	left:150px;
+	top:0px;
+	display:none;
+}
+.ufuqi li:hover> ul{
+	display:block;
+}
